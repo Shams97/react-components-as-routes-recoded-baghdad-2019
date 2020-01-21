@@ -1,4 +1,9 @@
-  
 import React from 'react';
 
-class About extends React
+class Home extends React.Component {
+  render() {
+    return <h1>Home!</h1>
+  }
+}
+
+export default Home;
